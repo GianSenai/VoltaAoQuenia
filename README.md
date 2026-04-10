@@ -1,2 +1,8 @@
-# VoltaAoQuenia
-Projeto Volta ao Mundo com o Intuito de mostrar nossa evolução na criação de sites usando de apoio o GitHub
+# Site sobre o Quenia
+
+Projeto faculdade usando Bootstrap. To evoluindo ele aos poucos kkk
+
+## O que tem agora:
+- 4 páginas completas
+- CSS externo
+- Pasta imagens

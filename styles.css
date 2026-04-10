@@ -1,0 +1,28 @@
+body {
+    background-color: #f5f5dc;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #006600 !important;
+}
+
+.btn-kenya {
+    background-color: #C8102E;
+    color: white;
+}
+
+.hero {
+    background-color: #00600;
+    color: white;
+    padding: 6rem 0;
+}
+
+.card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
