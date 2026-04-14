@@ -3,23 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quenia - Pagina Inicial</title>
+    <title>Quênia - Culinária Típica</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">Quenia</a>
-            <a class="navbar-brand fw-bold" href="turismo.html">Turismo</a>
-            <a class="navbar-brand fw-bold" href="culinaria.html">Quenia</a>
-            <a class="navbar-brand fw-bold" href="noticias.html">Turismo</a>
-            <li class="nav-item"><a class="nav-link" href="curiosidades.html">Curiosidades</a></li>
-            <!-- links: Home, Turismo, Culinaria, Noticias -->
+        <a class="navbar-brand fw-bold fs-3" href="index.html">Quênia</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
+                <li class="nav-item"><a class="nav-link active" href="culinaria.html">Culinária</a></li>
+                <li class="nav-item"><a class="nav-link" href="noticias.html">Notícias</a></li>
+                <li class="nav-item"><a class="nav-link" href="curiosidades.html">Curiosidades</a></li>
+            </ul>
         </div>
+    </div>
     </nav>
-
+    <section class="culinaria-hero position-relative d-flex align-items-center text-center text-white py-5">
+        <img src="imagens/ugali.jpg" class="position-absolute w-100 h-100 object-fit-cover" alt="Pratos típicos do Quênia" style="z-index: -1;">
+        <div class="position-absolute w-100 h-100 bg-dark" style="opacity: 0.5; z-index: -1;"></div>
+        
+        <div class="container position-relative">
+            <h1 class="display-4 fw-bold mb-3">Culinária do Quênia</h1>
+            <p class="lead fs-4">Uma mistura deliciosa de sabores africanos, influências indianas e árabes. Simples, saborosa e cheia de história.</p>
+        </div>
+    </section>
     
 
     <div class="container my-5">
