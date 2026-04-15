@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,58 +8,143 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"style="margin-bottom: 50px">
-    <div class="container">
-        <a class="navbar-brand fw-bold fs-3" href="index.html">Quênia</a>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
-                <li class="nav-item"><a class="nav-link active" href="culinaria.html">Culinária</a></li>
-                <li class="nav-item"><a class="nav-link" href="noticias.html">Notícias</a></li>
-                <li class="nav-item"><a class="nav-link" href="curiosidades.html">Curiosidades</a></li>
-            </ul>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="margin-bottom: 50px">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="index.html">Quênia</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="turismo.html">Turismo</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="culinaria.html">Culinária</a></li>
+                    <li class="nav-item"><a class="nav-link" href="noticias.html">Notícias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="curiosidades.html">Curiosidades</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
     </nav>
-    <section class="culinaria-hero position-relative d-flex align-items-center text-center text-white py-5" >
-        <img src="imagens/ugali.jpg" class="position-absolute w-100 h-100 object-fit-cover" alt="Pratos típicos do Quênia" style="z-index: -1; ">
+    <section class="culinaria-hero position-relative d-flex align-items-center text-center text-white py-5">
+        <img src="imagens/ugali.jpg" class="position-absolute w-100 h-100 object-fit-cover"
+            alt="Pratos típicos do Quênia" style="z-index: -1; ">
         <div class="position-absolute w-100 h-100 bg-dark" style="opacity: 0.5; z-index: -1;"></div>
-        
+
         <div class="container position-relative">
             <h1 class="display-4 fw-bold mb-3" style="margin-top: 50px">Culinária do Quênia</h1>
-            <p class="lead fs-4">Uma mistura deliciosa de sabores africanos, influências indianas e árabes. Simples, saborosa e cheia de história.</p>
+            <p class="lead fs-4">Uma mistura deliciosa de sabores africanos, influências indianas e árabes. Simples,
+                saborosa e cheia de história.</p>
         </div>
     </section>
-    
 
-    <div class="container my-5">
-        <h1 class="mb-4">Culinaria no Quenia</h1>
-        <div id="carouselCulinaria" class="carousel slide mb-5">
-            <!-- carousel items com as imagens maasai e mombasa -->
+
+    <!-- ==================== PRATOS PRINCIPAIS ==================== -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 display-5">Pratos Típicos do Quênia</h2>
+            <p class="text-center lead mb-5">Conheça os sabores mais tradicionais e deliciosos da culinária queniana.
+            </p>
+
+            <div class="row g-4">
+
+                <!-- Prato 1: Ugali -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/ugali.jpg" class="card-img-top" alt="Ugali"
+                            style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Ugali</h5>
+                            <p class="card-text">O prato mais icônico do Quênia. Feito à base de farinha de milho
+                                branca, tem textura firme e é servido como acompanhamento principal para carnes e
+                                vegetais.</p>
+                            <small class="text-muted mt-auto">Prato nacional • Acompanhamento essencial</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prato 2: Nyama Choma -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/nyama.jpg" class="card-img-top" alt="Nyama Choma"
+                            style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Nyama Choma</h5>
+                            <p class="card-text">Carne grelhada no carvão (geralmente cabrito, boi ou frango). Servida
+                                com sal grosso, é o prato favorito em encontros familiares e festas.</p>
+                            <small class="text-muted mt-auto">Churrasco queniano • Prato social</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prato 3: Sukuma Wiki -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/Fukuma Misushi.jpg" class="card-img-top" alt="Sukuma Wiki"
+                            style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Sukuma Wiki</h5>
+                            <p class="card-text">Couve refogada com tomate, cebola, alho e especiarias. Um prato
+                                simples, barato e muito nutritivo, presente no dia a dia das famílias quenianas.</p>
+                            <small class="text-muted mt-auto">Acompanhamento • Saudável e econômico</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prato 4: Kachumbari -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/kachumba.jpg" class="card-img-top" alt="Kachumbari"
+                            style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Kachumbari</h5>
+                            <p class="card-text">Salada fresca feita com tomate, cebola roxa, pimenta e coentro.
+                                Geralmente servida como acompanhamento de nyama choma.</p>
+                            <small class="text-muted mt-auto">Salada fresca • Refrescante</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prato 5: Chai -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/sai.jpg" class="card-img-top" alt="Chai Queniano"
+                            style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Chai</h5>
+                            <p class="card-text">Chá preto forte preparado com leite, gengibre, cardamomo e cravo. É a
+                                bebida mais consumida no Quênia, tomada várias vezes ao dia.</p>
+                            <small class="text-muted mt-auto">Bebida tradicional • Energético</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Prato 6: Githeri -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/gyutaro.jpg" class="card-img-top" alt="Githeri"
+                            style="height: 260px; object-fit: cover;">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Githeri</h5>
+                            <p class="card-text">Mistura cozida de milho e feijão, temperada com cebola, tomate e
+                                especiarias. Um prato simples, nutritivo e muito popular entre os quenianos.</p>
+                            <small class="text-muted mt-auto">Prato tradicional • Vegetariano</small>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card"><img src="imagens/ugali.jpg" class="card-img-top" alt=""><div class="card-body"><h5>Maasai Mara</h5><p>O melhor safari do mundo</p></div></div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card"><img src="imagens/nyama.jpg" class="card-img-top" alt=""><div class="card-body"><h5>Maasai Mara</h5><p>O melhor safari do mundo</p></div></div>
-            </div>
-            
-            
         </div>
-    </div>
+    </section>
 
     <footer class="bg-dark text-white text-center py-4">
         <p>© Quenia 2026 - feito com bootstrap</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
