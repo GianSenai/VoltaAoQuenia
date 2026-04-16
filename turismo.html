@@ -43,40 +43,254 @@
             <a href="#destinos" class="btn btn-kenya btn-lg mt-4">Explorar Destinos</a>
         </div>
     </section>
-    <div class="container my-5">
 
-        <h1 class="mb-4">Turismo no Quenia</h1>
-        <div id="carouselTurismo" class="carousel slide mb-5">
-            <!-- carousel items com as imagens maasai e mombasa -->
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card"><img src="imagens/maasai.jpg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5>Maasai Mara</h5>
-                        <p>O melhor safari do mundo</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card"><img src="imagens/mombasa.jpg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5>Maasai Mara</h5>
-                        <p>O melhor safari do mundo</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3 mb-4">
-                <div class="card"><img src="imagens/turkana.jpg" class="card-img-top" alt="">
-                    <div class="card-body">
-                        <h5>Maasai Mara</h5>
-                        <p>O melhor safari do mundo</p>
-                    </div>
-                </div>
-            </div>
+    <section class="py-5" id="destinos" style="background-color: #f5f5dc;">
+        <div class="container">
+            <h2 class="text-center mb-5 display-5">Tipos de Turismo no Quênia</h2>
 
+
+            <ul class="nav nav-tabs justify-content-center mb-5" id="turismoTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="safari-tab" data-bs-toggle="tab" data-bs-target="#safari"
+                        type="button">🐘 Safari</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="praias-tab" data-bs-toggle="tab" data-bs-target="#praias"
+                        type="button">🏖️ Praias</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="cultura-tab" data-bs-toggle="tab" data-bs-target="#cultura"
+                        type="button">🎭 Cultura</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="aventura-tab" data-bs-toggle="tab" data-bs-target="#aventura"
+                        type="button">🏔️ Aventura</button>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+
+                <div class="tab-pane fade show active" id="safari">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <img src="imagens/safari.jpg" class="img-fluid rounded-4 shadow" alt="Maasai Mara">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3 class="fw-bold">Maasai Mara &amp; Outros Parques</h3>
+                            <p class="lead">O coração selvagem do Quênia. Lar da famosa Grande Migração, onde mais de
+                                1,5 milhão de animais cruzam as planícies.</p>
+                            <ul class="list-unstyled">
+                                <li class="mb-3">✅ Observação dos Big Five (Leão, Elefante, Búfalo, Leopardo e
+                                    Rinoceronte)</li>
+                                <li class="mb-3">✅ Passeios de balão ao amanhecer</li>
+                                <li class="mb-3">✅ Acampamentos de luxo e lodges exclusivos</li>
+                                <li class="mb-3">✅ Interação com o povo Maasai</li>
+                            </ul>
+                            <p><strong>Melhor época:</strong> Julho a Outubro (Grande Migração)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="praias">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <img src="imagens/praia.webp" class="img-fluid rounded-4 shadow" alt="Praias de Mombasa">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3 class="fw-bold">Praias do Oceano Índico</h3>
+                            <p class="lead">Águas cristalinas, recifes de coral e um clima tropical perfeito. O lado
+                                relaxante do Quênia.</p>
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <strong>Diani Beach</strong><br>
+                                    <small>Areia branca e resorts de luxo</small>
+                                </div>
+                                <div class="col-6">
+                                    <strong>Mombasa</strong><br>
+                                    <small>História + praias urbanas</small>
+                                </div>
+                                <div class="col-6">
+                                    <strong>Watamu</strong><br>
+                                    <small>Paraíso para mergulho</small>
+                                </div>
+                                <div class="col-6">
+                                    <strong>Lamu Island</strong><br>
+                                    <small>Arquitetura swahili preservada</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="tab-pane fade" id="cultura">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <img src="imagens/turismo.webp" class="img-fluid rounded-4 shadow" alt="Cultura Maasai">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3 class="fw-bold">Cultura e Tradições</h3>
+                            <p class="lead">Conheça o povo Maasai, as danças tradicionais, mercados vibrantes e a rica
+                                herança swahili.</p>
+                            <ul>
+                                <li class="mb-2">• Aldeias Maasai autênticas</li>
+                                <li class="mb-2">• Mercados de artesanato em Nairobi</li>
+                                <li class="mb-2">• Festivais culturais e danças tradicionais</li>
+                                <li class="mb-2">• Visita ao Museu Nacional do Quênia</li>
+                                <li class="mb-2">• Experiência com a comunidade Samburu</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="aventura">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6">
+                            <img src="imagens/aventura.jpg" class="img-fluid rounded-4 shadow" alt="Monte Quênia">
+                        </div>
+                        <div class="col-lg-6">
+                            <h3 class="fw-bold">Aventura e Natureza</h3>
+                            <p class="lead">Para os espíritos mais aventureiros: trilhas, montanhismo e esportes
+                                radicais.</p>
+                            <ul>
+                                <li class="mb-2">• Ascensão ao Monte Quênia (5.199m)</li>
+                                <li class="mb-2">• Rafting no rio Tana</li>
+                                <li class="mb-2">• Mergulho e snorkel em recifes de coral</li>
+                                <li class="mb-2">• Trekking no Hell's Gate National Park</li>
+                                <li class="mb-2">• Passeios de bicicleta entre zebras e girafas</li>
+                            </ul>
+                            <p><strong>Dica:</strong> Leve boa condição física para as atividades de alta altitude.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-    </div>
+    </section>
+ 
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 display-5">Pacotes Populares</h2>
+            <p class="text-center lead mb-5">Escolha sua aventura no Quênia com pacotes completos e bem avaliados.</p>
+
+            <div class="row g-4">
+
+  
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/pct1.jpg" class="card-img-top" style="height: 220px; object-fit: cover;"
+                            alt="Safari">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Safari Clássico no Maasai Mara</h5>
+                            <p class="text-success fw-bold fs-4">R$ 9.850</p>
+                            <ul class="list-unstyled small">
+                                <li>7 dias / 6 noites</li>
+                                <li>Maasai Mara + Lago Nakuru</li>
+                                <li>Hospedagem em lodge de luxo</li>
+                                <li>Guias especializados e transporte</li>
+                            </ul>
+                            <a class="btn btn-kenya mt-auto">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+   
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/pct2.jpg" class="card-img-top" style="height: 220px; object-fit: cover;"
+                            alt="Praias">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Praias &amp; Relax - Diani Beach</h5>
+                            <p class="text-success fw-bold fs-4">R$ 7.290</p>
+                            <ul class="list-unstyled small">
+                                <li>8 dias / 7 noites</li>
+                                <li>Diani Beach + Mombasa</li>
+                                <li>Resort all-inclusive</li>
+                                <li>Mergulho e passeios de barco</li>
+                            </ul>
+                            <a class="btn btn-kenya mt-auto">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/pct3.jpg" class="card-img-top"
+                            style="height: 220px; object-fit: cover;" alt="Monte Quênia">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Aventura no Monte Quênia</h5>
+                            <p class="text-success fw-bold fs-4">R$ 12.450</p>
+                            <ul class="list-unstyled small">
+                                <li>9 dias / 8 noites</li>
+                                <li>Ascensão ao Monte Quênia</li>
+                                <li>Trilhas + acampamento</li>
+                                <li>Guia de montanha certificado</li>
+                            </ul>
+                            <a class="btn btn-kenya mt-auto">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/pct4.webp" class="card-img-top"
+                            style="height: 220px; object-fit: cover;" alt="Cultura">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Cultura Maasai + Safari</h5>
+                            <p class="text-success fw-bold fs-4">R$ 8.670</p>
+                            <ul class="list-unstyled small">
+                                <li>6 dias / 5 noites</li>
+                                <li>Experiência em aldeia Maasai</li>
+                                <li>Safari fotográfico</li>
+                                <li>Workshops culturais</li>
+                            </ul>
+                            <a class="btn btn-kenya mt-auto">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/pct5.jpg" class="card-img-top"
+                            style="height: 220px; object-fit: cover;" alt="Família">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Pacote Família - Safari + Praia</h5>
+                            <p class="text-success fw-bold fs-4">R$ 11.200</p>
+                            <ul class="list-unstyled small">
+                                <li>10 dias / 9 noites</li>
+                                <li>Maasai Mara + Diani Beach</li>
+                                <li>Atividades para crianças</li>
+                                <li>Voos internos inclusos</li>
+                            </ul>
+                            <a  class="btn btn-kenya mt-auto">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/pct6.jpg" class="card-img-top"
+                            style="height: 220px; object-fit: cover;" alt="Luxo">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Safari de Luxo - Experiência Premium</h5>
+                            <p class="text-success fw-bold fs-4">R$ 18.900</p>
+                            <ul class="list-unstyled small">
+                                <li>8 dias / 7 noites</li>
+                                <li>Lodges 5 estrelas</li>
+                                <li>Passeios privados</li>
+                                <li>Voo panorâmico incluso</li>
+                            </ul>
+                            <a class="btn btn-kenya mt-auto">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
     <footer class="bg-dark text-white text-center py-4">
         <p>© Quenia 2026 - feito com bootstrap</p>
