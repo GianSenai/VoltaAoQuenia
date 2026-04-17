@@ -75,7 +75,7 @@
 
 /* Navbar personalizada */
 .navbar {
-    background-color:#006600; /* fundo escuro semi-transparente */
+    background-color:#212529; /* fundo escuro semi-transparente */
     backdrop-filter: blur(6px); /* efeito moderno (opcional) */
 }
 
