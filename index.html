@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quenia - Descubra o Paraíso Africano</title>
+    <title>Quênia - Descubra o Paraíso Africano</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
@@ -27,10 +28,10 @@
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero -->
     <section class="hero position-relative d-flex align-items-center text-center text-white">
-        <img src="imagens/hero.jpg" class="position-absolute w-100 h-100 object-fit-cover" alt="Paisagem do Quênia" style="z-index: -1;">
-        <div class="position-absolute w-100 h-100 bg-dark" style="opacity: 0.45; z-index: -1;"></div>
+        <img src="imagens/hero.jpg" class="position-absolute w-100 h-100 object-fit-cover hero-bg" alt="Paisagem do Quênia">
+        <div class="hero-overlay"></div>
         
         <div class="container position-relative">
             <div class="row justify-content-center">
@@ -44,41 +45,43 @@
         </div>
     </section>
 
-    <!-- Seção Por Que o Quênia -->
-    <div class="container py-5">
-        <h2 class="text-center mb-5">Por que o Quenia e Especial?</h2>
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card h-100 border-0 shadow-sm">
-                    <img src="imagens/maasai.jpg" class="card-img-top" alt="Safari" style="height: 260px; object-fit: cover;">
-                    <div class="card-body">
-                        <h5 class="card-title">Safaris Incriveis</h5>
-                        <p class="card-text">O Maasai Mara e considerado um dos melhores lugares do mundo para ver a grande migracao de animais.</p>
+    <!-- Por que o Quênia é Especial -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Por que o Quênia é Especial?</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/maasai.jpg" class="card-img-top card-img-fixed" alt="Safari">
+                        <div class="card-body">
+                            <h5 class="card-title">Safaris Incríveis</h5>
+                            <p class="card-text">O Maasai Mara é considerado um dos melhores lugares do mundo para ver a grande migração de animais.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 border-0 shadow-sm">
-                    <img src="imagens/mombasa.jpg" class="card-img-top" alt="Praia" style="height: 260px; object-fit: cover;">
-                    <div class="card-body">
-                        <h5 class="card-title">Praias Paradisíacas</h5>
-                        <p class="card-text">Mombasa e Diani Beach sao destinos perfeitos para quem ama sol, mar e relax.</p>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/mombasa.jpg" class="card-img-top card-img-fixed" alt="Praia">
+                        <div class="card-body">
+                            <h5 class="card-title">Praias Paradisíacas</h5>
+                            <p class="card-text">Mombasa e Diani Beach são destinos perfeitos para quem ama sol, mar e relax.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 text-center">
-                    <img src="imagens/nzambi.jpg" class="card-img-top" alt="Inovacao" style="height: 220px; object-fit: cover;">
-                    <div class="card-body">
-                        <h5 class="card-title">Inovacao e Sustentabilidade</h5>
-                        <p class="card-text">Jovens engenheiros quenianos estao criando solucoes como tijolos de plastico reciclado.</p>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <img src="imagens/nzambi.jpg" class="card-img-top card-img-fixed" alt="Inovação">
+                        <div class="card-body">
+                            <h5 class="card-title">Inovação e Sustentabilidade</h5>
+                            <p class="card-text">Jovens engenheiros quenianos estão criando soluções como tijolos de plástico reciclado.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-- outras páginas -->
+    <!-- Links Rápidos -->
     <section class="bg-light py-5">
         <div class="container">
             <div class="row text-center g-4">
@@ -104,12 +107,12 @@
         </div>
     </section>
 
-
+    <!-- Footer -->
     <footer class="bg-dark text-white py-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="mb-0">© 2026 Quênia Explorer - Site desenvolvido com Bootstrap para trabalho acadêmico</p>
+                    <p class="mb-0">© 2026 Quênia Explorer - Site desenvolvido com Bootstrap</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <p class="mb-0">Feito com o intuito de instruir sobre a África</p>
